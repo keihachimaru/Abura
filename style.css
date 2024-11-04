@@ -1,0 +1,22 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background: black;
+}
+main {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10px;
+}
+img {
+    outline: 3px solid red;
+}
+canvas {
+    outline: 3px solid blue;
+}
+  
